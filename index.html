@@ -17,7 +17,8 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
     <style>
-          h1{
+          h1,
+          h2{
             font-family: "Bebas Neue", serif;
           }
     </style>
@@ -50,8 +51,8 @@
             <div>
                 <h1 class="text-7xl font-normal black-800"><span class="text-yellow-300">Be the Penguins</span> <br>
                     of Winter</h1>
-                <p class="text-base text normal black-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button class="text-base font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-greem-900 to-green-600 mt-3">BUY NOW</button>
+                <p class="text-base text normal black-800">I own so many lady jackets at this point, and I truly love them all. <br> They really just keep getting better and better.</p>
+                <button class="text-base font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-green-400 to-green-600 mt-3">BUY NOW</button>
             </div>
             <!-- banner image -->
             <div>
@@ -63,24 +64,79 @@
     </header>
 
     <main>
+        <!-- woman jacket section -->
+        <div class="mx-auto w-9/12 mb-24">
+            <h2 class="uppercase text-6xl text-black font-normal mt-12 mb-5">Woman Jacket</h2>
 
-        <div class="mx-auto w-9/12">
-            <h2 class="uppercase text-6xl text-black-800 mt-12 mb-5">Woman Jacket</h2>
-
-                <div class="flex items-center">
-                    <div>
-                        <img src="images/jacket-1.png" alt="seals for a womans jacket">
-                        <h3>Yellow Coat Jacket </h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div>
-                            <h3>$234</h3>
-                            <button class="text-base font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-greem-900 to-green-600 mt-3">BUY NOW</button> 
+                <div class="flex items-center justify-between gap-5">
+                    <!-- box 1 -->
+                    <div class="px-5 py-6 shadow-lg justify-center items-center rounded-xl">
+                        <img src="images/jacket-1.png" alt="seals for a womans jacket" class="bg-gray-200 rounded-xl px-5 py-10">
+                        <h3 class="text-2xl text-black-700 font-bold pb-3">Yellow Coat Jacket </h3>
+                        <p class="text-black-800 tixt-base font-normal pb-3">I love the structure of these jackets. And I don’t mean like a structured garment in the rigid sense – I mean in terms of the make up of the garment.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-4xl font-black text-yellow-300 ">$234</h3>
+                            <button class="text-base text-white font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-green-400 to-green-600 mt-3"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button> 
+                        </div>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="px-5 py-6 shadow-lg justify-center items-center rounded-xl">
+                        <img src="images/jacket-2.png" alt="seals for a womans jacket" class="bg-gray-200 rounded-xl px-5 py-10">
+                        <h3 class="text-2xl text-black-700 font-bold pb-3">Ladies Jacket  </h3>
+                        <p class="text-black-800 tixt-base font-normal pb-3">I love the structure of these jackets. And I don’t mean like a structured garment in the rigid sense – I mean in terms of the make up of the garment.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-4xl font-black text-yellow-300 ">$234</h3>
+                            <button class="text-base text-white font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-green-400 to-green-600 mt-3"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button> 
+                        </div>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="px-5 py-6 shadow-lg justify-center items-center rounded-xl ">
+                        <img src="images/jacket-3.png" alt="seals for a womans jacket" class="bg-gray-200 rounded-xl px-5 py-10">
+                        <h3 class="text-2xl text-black-700 font-bold pb-3">Woman Leather Jacket</h3>
+                        <p class="text-ba text-black font-normal pb-3">I love the structure of these jackets. And I don’t mean like a structured garment in the rigid sense, I mean in terms of the make up of the garment.</p>
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-4xl font-black text-yellow-300 ">$234</h3>
+                            <button class="text-base text-white font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-green-400 to-green-600 mt-3"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button> 
                         </div>
                     </div>
             
                 </div>
 
         </div>
+
+        <!-- man jacket section -->
+         <div class="w-9/12 mx-auto mb-24">
+            <h2 class="text-6xl text-black font-normal uppercase mb-5">Man Jacket</h2>
+            <div class="flex items-center justify-between gap-5">
+                <div class="px-5 py-6 shadow-lg justify-center items-center rounded-xl">
+                    <img src="images/jacket-4.png" alt="sales for a man jacket" class="bg-gray-200 rounded-xl px-5 py-10 mb-5">
+                    <h3 class="text-2xl text-black font-bold pb-3">Snowboard Jacket Mens</h3>
+                    <p class="font-normal text-base text-black pb-3">Guys should never be without a jacket in their closet. A jacket adds style to your look in addition to keeping you warm.</p>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-4xl text-yellow-300 font-black">$234</h3>
+                        <button class="text-base text-white font-normal bg-gradient-to-r from-green-400 to-green-600 px-8 py-4 rounded-xl mb-5"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+                </div>
+                <div class="px-5 py-6 shadow-lg justify-center items-center rounded-xl">
+                    <img src="images/jacket-4.png" alt="sales for a man jacket" class="bg-gray-200 rounded-xl px-5 py-10 mb-5">
+                    <h3 class="text-2xl text-black font-bold pb-3">Snowboard Jacket Mens</h3>
+                    <p class="font-normal text-base text-black pb-3">Guys should never be without a jacket in their closet. A jacket adds style to your look in addition to keeping you warm.</p>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-4xl text-yellow-300 font-black">$234</h3>
+                        <button class="text-base text-white font-normal bg-gradient-to-r from-green-400 to-green-600 px-8 py-4 rounded-xl mb-5"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+                </div>
+                <div class="px-5 py-6 shadow-lg justify-center items-center rounded-xl">
+                    <img src="images/jacket-4.png" alt="sales for a man jacket" class="bg-gray-200 rounded-xl px-5 py-10 mb-5">
+                    <h3 class="text-2xl text-black font-bold pb-3">Snowboard Jacket Mens</h3>
+                    <p class="font-normal text-base text-black pb-3">Guys should never be without a jacket in their closet. A jacket adds style to your look in addition to keeping you warm.</p>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-4xl text-yellow-300 font-black">$234</h3>
+                        <button class="text-base text-white font-normal bg-gradient-to-r from-green-400 to-green-600 px-8 py-4 rounded-xl mb-5"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+         </div>
     </main>
     <footer>
         
