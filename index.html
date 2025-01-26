@@ -15,16 +15,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- tailwind link -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
     <style>
-          font-family: "Bebas Neue", serif;
+          h1{
+            font-family: "Bebas Neue", serif;
+          }
     </style>
 </head>
+
 <body font-family: "Roboto", serif;">
-    <header>
+
+    <header class="bg-red-50">
+        <nav class="flex justify-between items-center py-10 mx-auto w-9/12">
+
+            <div class="w-73">
+                <img src="icons/logo.png" alt="create a company logo" class="w-full">
+            </div>
+
+            <div>
+                <ul class="flex gap-x-5">
+                    <li class="text-base text-black-800 fint-medium"><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <div class="hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- start banner section  -->
+        <div class="flex justify-between items-center mx-auto w-9/12 pb-32">
+            <div>
+                <h1 class="text-7xl font-normal black-800"><span class="text-yellow-300">Be the Penguins</span> <br>
+                    of Winter</h1>
+                <p class="text-base text normal black-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="text-base font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-greem-900 to-green-600 mt-3">BUY NOW</button>
+            </div>
+            <!-- banner image -->
+            <div>
+                <img src="images/model.png" alt="creat a girl image for banner section">
+            </div>
+        
+        </div>
 
     </header>
+
     <main>
 
+        <div class="mx-auto w-9/12">
+            <h2 class="uppercase text-6xl text-black-800 mt-12 mb-5">Woman Jacket</h2>
+
+                <div class="flex items-center">
+                    <div>
+                        <img src="images/jacket-1.png" alt="seals for a womans jacket">
+                        <h3>Yellow Coat Jacket </h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div>
+                            <h3>$234</h3>
+                            <button class="text-base font-normal px-8 py-4 rounded-xl bg-gradient-to-r from-greem-900 to-green-600 mt-3">BUY NOW</button> 
+                        </div>
+                    </div>
+            
+                </div>
+
+        </div>
     </main>
     <footer>
         
